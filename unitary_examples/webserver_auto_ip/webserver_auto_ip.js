@@ -18,7 +18,7 @@ const port = 8080;
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/html');
-  res.end('<h1>Hello Mr Oqueber</h1>');
+  res.end("<h1>Why don't scientists trust atoms? Because they make up everything!</h1>");
 });
 
 // Start http server
